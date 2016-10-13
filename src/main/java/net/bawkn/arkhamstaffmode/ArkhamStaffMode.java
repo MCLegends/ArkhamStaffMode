@@ -9,7 +9,7 @@ import java.util.UUID;
 
 public class ArkhamStaffMode extends JavaPlugin {
 
-    public static HashMap<UUID, Player> enabled = new HashMap<UUID, Player>();
+    public static HashMap<UUID, String> enabled = new HashMap<UUID, String>();
 
     @Override
     public void onEnable() {
