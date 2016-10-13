@@ -10,7 +10,7 @@ import org.bukkit.event.player.PlayerDropItemEvent;
 
 public class CreativeDisable implements Listener {
 
-    private static ArkhamStaffMode instance;
+    private ArkhamStaffMode instance;
 
     @EventHandler
     public void onItemDrop(PlayerDropItemEvent event) {
